@@ -1,5 +1,5 @@
 const clientId = '3fdb6250c1d344bcb729d51d0ef0f3ef';
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'http://uptight-sink.surge.sh/';
 const spotifyUrl =  `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
 let accessToken = "";
 
